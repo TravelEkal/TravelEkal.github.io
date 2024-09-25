@@ -1,0 +1,255 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    color: #666;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#about h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#about p {
+    margin-bottom: 20px;
+}
+
+#about img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+#about button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#about button:hover {
+    background-color: #23527c;
+}
+
+.places-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.place {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.place img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.place h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.place button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.place button:hover {
+    background-color: #23527c;
+}
+
+.accommodation-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.accommodation {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.accommodation img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.accommodation h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.accommodation button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.accommodation button:hover {
+    background-color: #23527c;
+}
+
+/* Activities Styles */
+
+.activities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.activity {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.activity img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.activity h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.activity button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.activity button:hover {
+    background-color: #23527c;
+}
+
+/* Blog Styles */
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.blog-post {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.blog-post h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    margin-bottom: 20px;
+}
+
+.blog-post button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.blog-post button:hover {
+    background-color: #23527c;
+}
+
+footer {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+

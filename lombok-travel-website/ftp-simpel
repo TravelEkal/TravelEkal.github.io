@@ -1,0 +1,60 @@
+[
+    {
+        "name": "travel ekal",
+        "host": "haikaltravvel127.0.0.1",
+        "port": 21,
+        "type": "ftp",
+        "username": "haikal akbari",
+        "password": "haikal123",
+        "path" : "/"
+    },
+    {
+        "name": "my server1 with tls",
+        "host": "127.0.0.1",
+        "port": 21,
+        "type": "ftp",
+        "username": "id",
+        "password": "pw",
+        "secure" : true,
+        //"secureOptions" : {"rejectUnauthorized": false, "secureProtocol" :"TLSv1_2_method"},
+        "path" : "/"
+    },
+    {
+        "name": "my server2",
+        "host": "127.0.0.1",
+        "port": 22,
+        "type": "sftp",
+        "username": "id",
+        "password": "pw",
+        "path" : "/",
+        "autosave" : false
+    },
+    {
+        "name": "my server3",
+        "host": "127.0.0.1",
+        "port": 21,
+        "type": "sftp",
+        "username": "id",
+        "password": "pw",
+        "path" : "/home",
+        "confirm" : false,
+        "backup" : "C:/backup",
+        "project" :  {
+            "c:/projects/project1" : "/home/user/project",
+            "c:/projects/project2" : {"path":"/home/user/project2", "save":true}  //When the "save" value is "true", save immediately without confirm
+        },
+        "ignore" : ["/**/node_modules", "/**/*.class"]
+    },
+    {
+        "name": "my server4",
+        "host": "127.0.0.1",
+        "port": 22,
+        "type": "sftp",
+        "username": "id",
+        "password": "x",
+        "agent": "/run/user/1111/keyring/ssh",
+        "path": "/",
+        "autosave": true,
+        "confirm": false
+    }
+]
